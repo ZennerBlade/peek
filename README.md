@@ -33,7 +33,11 @@
 <br>
 
 <p align="center">
-  <img src="assets/showcase.webp" alt="Peek on Android: collapsible JSON tree, regex search, one-tap copy of values and JSON paths, and colour-blind-safe themes" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/showcase-dark.webp">
+    <source media="(prefers-color-scheme: light)" srcset="assets/showcase-light.webp">
+    <img src="assets/showcase-light.webp" alt="Peek on Android in dark and light themes: collapsible JSON tree, regex search, one-tap copy of values and JSON paths, and colour-blind-safe themes" width="100%">
+  </picture>
 </p>
 
 <br>
